@@ -100,7 +100,7 @@ describe('Animal', () => {
     expect(Animal.alive.includes(bear))
       .toBe(true);
 
-git    expect(Animal.alive.includes(pig))
+    expect(Animal.alive.includes(pig))
       .toBe(true);
 
     expect(Animal.alive.includes(rabbit))
