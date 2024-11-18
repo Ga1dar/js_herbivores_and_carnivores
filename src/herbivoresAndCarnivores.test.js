@@ -70,7 +70,7 @@ describe('Animal', () => {
   });
 
   it(`'bite' method shouldn't decrease 'health' property of the herbivore,
-   if it has 'hidden === true`, () => {
+    if it has 'hidden === true`, () => {
     const carn = new Carnivore('Tiger');
     const herb = new Herbivore('Zebra');
 
@@ -100,7 +100,7 @@ describe('Animal', () => {
     expect(Animal.alive.includes(bear))
       .toBe(true);
 
-    expect(Animal.alive.includes(pig))
+git    expect(Animal.alive.includes(pig))
       .toBe(true);
 
     expect(Animal.alive.includes(rabbit))
